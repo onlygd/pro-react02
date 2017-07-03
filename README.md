@@ -12,13 +12,13 @@
 
   - JSX로 작성된 XML 스타일 구문이 JS 코드로 변환됨 ([createElement](https://github.com/facebook/react/blob/v15.0.0-rc.1/src/isomorphic/classic/element/ReactElement.js#L117))
 
-  ```
-  <Nav color="blue" />
-  ```
+    ```
+    <Nav color="blue" />
+    ```
 
-  ```
-  React.createElement(Nav, {color: 'blue'})
-  ```
+    ```
+    React.createElement(Nav, {color: 'blue'})
+    ```
 
 - HTML과의 차이점
 
