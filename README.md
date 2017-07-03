@@ -31,19 +31,19 @@
     - HTML
 
       ```
-      <div id="box''clas5="some-class"></div>
+      <div id="box" class="some-class"></div>
       ```
 
     - 자바스크립트로 DOM 조작 
 
       ```
-      document.getEIementByld(''box'').ClassName="some-other-cla5s"
+      document.getEIementByld("box").className="some-other-class"
       ```
 
     - JSX
 
       ```
-      return <div id="box' Cla5sName="some-class"></div>
+      return <div id="box" className="some-class"></div>
       ```
 
 - JSX 특징  
