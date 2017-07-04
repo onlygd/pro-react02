@@ -114,9 +114,11 @@
     )
     ```
 
+
+
 ### 가상 DOM
 
-> 어플리케이션의 상태가 바뀔 때마다, 실제 DOM을 다시 생성하지 않고 비슷한 가상트리를 생성해서 효육적으로 업데이트!
+> 어플리케이션의 상태가 바뀔 때마다, 실제 DOM을 다시 생성하지 않고 비슷한 가상트리를 생성해서 효율적으로 업데이트!
 
 - 작동방식
 
@@ -132,10 +134,35 @@
 
   ​
 
+### Form
+
+> 사용자가 상호작용하면 상태가 변경되는 input, textarea, select 등의 요소등을 다룸
+
+- Controlled Component 
+
+  - React가 Component를 완전히 통제하는 방식으로, State에 따라서 값을 갱신하는 Component
+  - value에 할당된 state값을 직접 갱신하고 전달하기 때문에 기본적으로 권장하는 사용방식
+  - https://codepen.io/yukiban/pen/LbWePE
+
+- Uncontrolled Component
+
+  - React Component가 Form Component의 value를 제어하지 않음.
+
+  - value에 state를 직접 할당하지 않기 때문에 기본값을  defaultValue로 지정 (Input이 자체적으로 value를 조작)
+
+  - DOM 탐색을 통해 값을 조회 (this.refs) 하며, 값 변경 도중 React가 간섭 할 수 없다.
+
+  - 굳이 사용자 입력필드를 관리(검사/제어)할 필요가 없는 경우에 사용하면 적합.
+
+  - https://codepen.io/yukiban/pen/dOvJWp
+
+    ​
+
 ## 궁금한 사항
 
 - Ref를 사용한 사례가 뭐가 될가? 크게 와닿지가 않는다 책만봐서는.
-- ​
+
+  ​
 
 ## 참고자료
 
