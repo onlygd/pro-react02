@@ -150,7 +150,7 @@
 
   - React Component가 Form Component의 value를 제어하지 않음.
 
-  - value에 state를 직접 할당하지 않기 때문에 기본값을  defaultValue로 지정 (Input이 자체적으로 value를 조작)
+  - value에 state를 직접 할당하지 않기 때문에, 기본값을  defaultValue로 지정 (Input이 자체적으로 value를 조작)
 
   - DOM 탐색을 통해 값을 조회 (this.refs) 하며, 값 변경 도중 React가 간섭 할 수 없다.
 
